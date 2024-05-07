@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    background: url(dice-game-random-good-luck-thumbnail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px;
+    padding-bottom: 10px;
+    height: 74.5%;
+    border: none;
+
+
+
+}
+
+h1 {
+    color: gold;
+    text-shadow: 2px 2px 2px;
+}
+
+
+label {
+    color: rgb(68, 13, 96);
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(240, 100%, 45%);
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 3px 2px 10px;
+
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 55%);
+}
+
+button:active {
+    background-color: hsl(240, 100%, 65%);
+
+}
+
+input {
+    text-align: center;
+    font-weight: bold;
+    caret-color: red;
+    color: blue;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: large;
+    box-shadow: 2px 2px 10px;
+    font-size: 2rem;
+    width: 150px;
+
+}
+
+#diceImages img {
+    max-width: 100px;
+    max-width: 100px;
+    border: 2px;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 2px 2px 10px;
+
+}
+
+#diceResult {
+    color: brown;
+    text-decoration: underline;
+}
